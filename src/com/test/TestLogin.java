@@ -6,6 +6,7 @@ public class TestLogin {
         TestLogin testLogi=new TestLogin();
         testLogi.displaytail();
         testLogi.displayWing();
+        testLogi.displaWing1();
     }
 
     public void displaytail(){
@@ -14,6 +15,10 @@ public class TestLogin {
 
     public void displayWing(){
         System.out.println("print from wing");
+    }
+
+    public void displaWing1(){
+        System.out.println("print from wing 2");
     }
 
 }
